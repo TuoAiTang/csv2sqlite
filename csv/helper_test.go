@@ -7,7 +7,7 @@ import (
 )
 
 func TestCSVHelper_ToDB(t *testing.T) {
-	helper, err := NewCSVHelper("coupons", "/Users/xxx/Downloads/coupons.csv")
+	helper, err := NewCSVHelper("coupons", "/Users/tuocheng/Downloads/coupons.csv")
 	assert.Nil(t, err)
 
 	err = helper.SaveToDB("test.db")

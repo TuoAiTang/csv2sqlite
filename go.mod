@@ -1,4 +1,4 @@
-module github.com/tuoaitang/csv_helper
+module github.com/tuoaitang/csv2sqlite
 
 go 1.19
 
